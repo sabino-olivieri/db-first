@@ -1,0 +1,22 @@
+
+id_car                          - UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
+vin                             - VARCHAR(255) NOT NULL - UNIQUE
+brand                           - VARCHAR(255) NOT NULL
+model                           - VARCHAR(255) NOT NULL
+color                           - VARCHAR(255) NOT NULL
+plate                           - VARCHAR (15) NOT NULL - UNIQUE
+car_registration                - YEAR NOT NULL
+km_travelled                    - UNSIGNED MEDIUMINT NOT NULL
+fuel                            - VARCHAR(255) NOT NULL
+manual_transmission             - VARCHAR(255) DEFAULT(MANUAL)
+engine_power                    - VARCHAR(255)
+previous_owners                 - UNSIGNED TINYINT
+crashed_car                     - UNSIGNED TINYINT DEFAULT(0)
+number_seats                    - UNSIGNED TINYINT
+num_door                        - UNSIGNED TINYINT
+full_speed                      - UNSIGNED TINYINT
+status                          - VARCHAR(255) NOT NULL
+price                           - DECIMAL(8,2) NOT NULL
+financeable                     - UNSIGNED TINYINT DEFAULT(1)
+list_image_path                 - TEXT NOT NULL
+description                     - TEXT
