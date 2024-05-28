@@ -1,3 +1,5 @@
+USED_CARS
+____________
 
 id_car                          - UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
 vin                             - VARCHAR(255) NOT NULL - UNIQUE
